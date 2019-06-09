@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34CE5A3D-982C-4917-BE5D-E8717621E6D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Webalys-Kameleon.pics-Makeup.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SQLite.NET, Version=0.21.1869.3794, Culture=neutral, PublicKeyToken=c273bd375e695f9c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SQLite.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing.Designer.cs">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing1.Designer.cs">
+      <DependentUpon>Billing1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Cutting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cutting.Designer.cs">
+      <DependentUpon>Cutting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cutting1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cutting1.Designer.cs">
+      <DependentUpon>Cutting1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm1.Designer.cs">
+      <DependentUpon>EmployeeForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback1.Designer.cs">
+      <DependentUpon>Feedback1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Make Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Make Up.Designer.cs">
+      <DependentUpon>Make Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeUp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeUp1.Designer.cs">
+      <DependentUpon>MakeUp1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nail Art.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nail Art.Designer.cs">
+      <DependentUpon>Nail Art.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NailArt1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NailArt1.Designer.cs">
+      <DependentUpon>NailArt1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package.Designer.cs">
+      <DependentUpon>Package.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package1.Designer.cs">
+      <DependentUpon>Package1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receptionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionist.Designer.cs">
+      <DependentUpon>Receptionist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionistProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceptionistProfile.Designer.cs">
+      <DependentUpon>ReceptionistProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing1.resx">
+      <DependentUpon>Billing1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cutting.resx">
+      <DependentUpon>Cutting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cutting1.resx">
+      <DependentUpon>Cutting1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm1.resx">
+      <DependentUpon>EmployeeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback1.resx">
+      <DependentUpon>Feedback1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Make Up.resx">
+      <DependentUpon>Make Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeUp1.resx">
+      <DependentUpon>MakeUp1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nail Art.resx">
+      <DependentUpon>Nail Art.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NailArt1.resx">
+      <DependentUpon>NailArt1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package.resx">
+      <DependentUpon>Package.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package1.resx">
+      <DependentUpon>Package1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Receptionist.resx">
+      <DependentUpon>Receptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceptionistProfile.resx">
+      <DependentUpon>ReceptionistProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-button-vector-illustration-isolated-white-background-127000355.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14553501-logout-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Computer-Hardware-Shutdown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_card-512 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_open.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_open1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trolley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16757-200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trolly101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beuhair-interior-3-min-cropped.jpg" />
+    <None Include="Resources\depositphotos_150588270-stock-photo-cosmetic-and-makeup-background.jpg" />
+    <None Include="Resources\feedback_dribbble.jpg" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\7e95d49bb232db9aef31faa3614a0a61.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\office-1-1024x426.png" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\apple-computer-desk-wallpaper-1366x768-16722_46.jpg" />
+    <None Include="Resources\Beauty-Products.jpg" />
+    <None Include="Resources\credit-card-swipe-machine-500x500.jpg" />
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\download %282%29.jpg" />
+    <None Include="Resources\download %283%29.jpg" />
+    <None Include="Resources\apple-computer-desk-wallpaper-1366x768-16722_461.jpg" />
+    <None Include="Resources\download %284%29.jpg" />
+    <None Include="Resources\Homepage-Slider-1.jpg" />
+    <None Include="Resources\pngtree-female-employee-office-jobs-night-png-image_27171.jpg" />
+    <None Include="Resources\hair-cut-instruments.png" />
+    <None Include="Resources\2957b586d5da664.jpg" />
+    <None Include="Resources\storyblocks-cosmetic-salon-icons-set-cartoon-set-of-9-cosmetic-salon-vector-icons-for-web-isolated-on-white-background_HMdMh8X6Q_SB_PM.jpg" />
+    <None Include="Resources\Hairdressingtools.jpg" />
+    <Content Include="Webalys-Kameleon.pics-Makeup.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
